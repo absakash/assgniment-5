@@ -1,0 +1,39 @@
+.name{
+    text-align: center;
+    margin-top: 5px;
+}
+.button{
+    display: block;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.card{
+    height: 400px;
+}
+.p{
+    margin-left: 27px;
+}
+.card img{
+    height: 220px;
+}
+.cardd1{
+    margin-top: 20px;
+}
+
+#per-player{
+    width: 130px;
+    margin-left: 10px;
+}
+
+.calcu{
+    display: flex;
+}
+#coach{
+    width: 130px;
+    margin-left: 50px;
+}
+#manager{
+    width: 130px;
+    margin-left: 30px;
+}

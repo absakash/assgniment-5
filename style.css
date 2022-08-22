@@ -1,39 +1,60 @@
-.name{
-    text-align: center;
-    margin-top: 5px;
-}
-.button{
-    display: block;
-    text-align: center;
-    margin-left: 70px;
-    margin-top: 30px;
-}
-.card{
-    height: 400px;
-}
-.p{
-    margin-left: 27px;
-}
-.card img{
-    height: 220px;
-}
-.cardd1{
-    margin-top: 20px;
+* {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1250px;
+    margin: 0 auto;
+
 }
 
-#per-player{
-    width: 130px;
-    margin-left: 10px;
+.header-container {
+    background-image: url(image/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+
 }
 
-.calcu{
-    display: flex;
+.header-container h1 {
+    height: 3vw;
+    margin-bottom: 60px;
 }
-#coach{
-    width: 130px;
-    margin-left: 50px;
+
+.header-container p {
+    padding: 20px;
+    height: 1vw;
 }
-#manager{
-    width: 130px;
-    margin-left: 30px;
+
+.main {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+
+
+.card-1 {
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px gray;
+}
+
+#budget-card {
+    height: 500px;
+}
+
+
+
+
+.images {
+
+    height: 230px;
+}
+
+footer {
+    height: 100px;
+
+}
+
+footer p {
+    margin-top: 270px;
 }

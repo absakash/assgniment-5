@@ -1,198 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    
-    <style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!-- font awesome link -->
+  <script src="https://kit.fontawesome.com/54af555158.js" crossorigin="anonymous"></script>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- css link -->
+  <link rel="stylesheet" href="style.css">
 
-        .main{
-            position: relative;
-            background-color: aliceblue;
-        }
-       
-        .img-main img{
-            background-size: auto;
-        }
-        .main img{
-          
-        }
-        .main-text{
-            position: absolute;
-            top: 50%;
-            color: white;
-        }
-        h1{
-            
-           
-           /* top: 50%;
-           position: absolute; */
 
-           
-
-        }
-        .cardd{
-            margin-top: 100px;
-        }
-       
-    </style>
 </head>
+
 <body>
 
-    <main>
-        <section class="main">
-            <div class="img-main">
-                <img class="img-fluid" src="images/main.jpg" alt="">
-            
-            </div>
-            <div class="main-text">
-                <h1>Select top five best player</h1>
-                <!-- <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis ad quo deserunt perspiciatis tempora, iure nesciunt amet. Odit, dolorum pariatur.
-                </p> -->
+  <header>
+    <div class="header-container">
 
-            </div>
-           
-        </section>
-    </main>
+      <h1 class="text-white text-center pt-5 ">Buy player for your team !</h1>
+      <p class="text-white text-center p-3">This website is so beutifull to buy international football
+        player
+        ! You
+        can be buy
+        minmum one player and
+        maximum five player beside you can be buy manager and cotch !</p>
+    </div>
+  </header>
 
 
+
+  <main>
     <section>
-        <div class="cardd container">
-            
-            <div class="card-group gap-5">
-                <div class="card">
-                  <img src="images/card1/naymar.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title name">Naymer Junior</h5>
-                     <p class="card-text p">36 goals : 100+ assist</p>
-                   <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                   -->
-                   <button id="naymar" class="button btn btn-danger">Select</button>
-                </div>
-                </div>
-                <div class="card">
-                  <img src="images/card1/messi.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title name">Lio Messi</h5>
-                     <p class="card-text p">36 goals : 100+ assist</p>
-                   <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                   -->
-                   <button id="lio" class="button btn btn-danger">Select</button>
-                </div>
-                </div>
-                <div class="card">
-                  <img src="images/card1/ronaldo.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title name">cris ronaldo</h5>
-                     <p class="card-text p">36 goals : 100+ assist</p>
-                   <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                   -->
-                   <button id="cris" class="button btn btn-danger">Select</button>
-                </div>
-                </div>
-               
-                  
 
-                <div class="card">
-                     <h2 class="card-text">Slected Player</h2>
-                     <ol id="order">
+      <div class="cards container m-5">
 
-                     </ol>
-                    </div>
-                  </div>
+        <div class="row">
+          <div class="card-1 col-sm-12 col-md-6 col-lg-3 mx-3 my-3 ">
+            <img src="images/card1/naymar.jpg" class="card-img-top img-fluid w-100 images" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Naymer Junior</h5>
+              <p class="card-text text-center">36 goals : 100+ assist</p>
+
+              <button id="naymar" class="button btn btn-danger w-75">Select</button>
+            </div>
+          </div>
+          <div class="card-1 col-sm-12 col-md-6 col-lg-3 mx-3 my-3 ">
+            <img src="images/card1/kaka.jpg" class="card-img-top img-fluid w-100 images" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Kaka</h5>
+              <p class="card-text">36 goals : 100+ assist</p>
+
+              <button id="kaka" class="button btn btn-danger w-75">Select</button>
+            </div>
+          </div>
+          <div class="card-1 col-sm-12 col-md-6 col-lg-3 mx-3 my-3 ">
+            <img src="images/card1/martinez.jpg" class="card-img-top img-fluid w-100 images" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Martinez</h5>
+              <p class="card-text">36 goals : 100+ assist</p>
+
+              <button id="martinez" class="button btn btn-danger w-75">Select</button>
+            </div>
+          </div>
+          <div class="card-1 col-sm-12 col-md-6 col-lg-3 mx-3 my-3 ">
+            <div class="card">
+              <h2 class="card-text">Slected Player</h2>
+              <ol id="order">
+
+              </ol>
+            </div>
+          </div>
+          <div class="card-1 col-sm-12 col-md-6 col-lg-3 mx-3 my-3 ">
+            <img src="images/card1/dimaria.jpg" class="card-img-top img-fluid w-100 images" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">lio demaria</h5>
+              <p class="card-text">36 goals : 100+ assist</p>
+
+              <button id="demaria" class="button btn btn-danger w-75">Select</button>
+            </div>
+          </div>
+          <div class="card-1 col-sm-12 col-md-6 col-lg-3 mx-3 my-3 ">
+            <img src="images/card1/messi.jpg" class="card-img-top img-fluid w-100 images" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Lio Messi</h5>
+              <p class="card-text">36 goals : 100+ assist</p>
+
+              <button id="lio" class="button btn btn-danger w-75">Select</button>
+            </div>
+          </div>
+          <div class="card-1 col-sm-12 col-md-6 col-lg-3 mx-3 my-3  ">
+            <img src="images/card1/ronaldo.jpg" class="card-img-top img-fluid w-100 images" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">cris ronaldo</h5>
+              <p class="card-text">36 goals : 100+ assist</p>
+
+              <button id="cris" class="button btn btn-danger w-75">Select</button>
+            </div>
+          </div>
+          <div id="budget-card" class="card-1 col-sm-12 col-md-6 col-lg-3 mx-3 my-3 ">
+            <div class="card text-center">
+              <h2 class="card-text">Budget</h2>
+              <br>
+              <div class="calcu">
+                <label for="">Per Player : </label>
+                <input id="per-player" type="text">
               </div>
+              <br>
+              <button id="calculate" class="btn btn-primary w-100 text-center">Calculate</button>
+              <br>
+              <p>Player Expences = $<span id="player_expences">00</span> </p>
+
+              <div class="calcu">
+                <label for="">Manager : </label>
+                <input id="manager" type="text">
+              </div>
+              <br>
+              <div class="calcu">
+
+                <label for="">Coach : </label>
+                <input id="coach" type="text">
+              </div>
+              <br>
+              <button id="total-calculate" class="btn btn-primary w-100 text-center">Total Calculate</button>
+
+              <p>Total = $<span id="total">00</span> </p>
+
+
+
+            </div>
+          </div>
+
 
         </div>
-    </section>
-    <section>
-        <div class="cardd1 container">
-            
-            <div class="card-group gap-5">
-                <div class="card">
-                  <img src="images/card1/kaka.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title name">Kaka</h5>
-                     <p class="card-text p">36 goals : 100+ assist</p>
-                   <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                   -->
-                   <button id="kaka" class="button btn btn-danger">Select</button>
-                </div>
-                </div>
-                <div class="card">
-                  <img src="images/card1/martinez.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title name">Martinez</h5>
-                     <p class="card-text p">36 goals : 100+ assist</p>
-                   <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                   -->
-                   <button id="martinez" class="button btn btn-danger">Select</button>
-                </div>
-                </div>
-                <div class="card">
-                  <img src="images/card1/dimaria.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title name">lio demaria</h5>
-                     <p class="card-text p">36 goals : 100+ assist</p>
-                   <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                   -->
-                   <button id="demaria" class="button btn btn-danger">Select</button>
-                </div>
-                </div>
-               
-                  
+      </div>
 
-                <div class="card">
-                     <h2 class="card-text">Budget</h2>
-                    <br>
-                     <div class="calcu">
-                        <label for="">Per Player :  </label>
-                        <input id="per-player" type="text">
-                     </div>
-                     <br>
-                     <button id="calculate" class="btn btn-primary">Calculate</button>
-                     <br>
-                     <p>Player Expences = $<span id="player_expences">00</span> </p>
-                     
-                     <div class="calcu">
-                        <label for="">Manager :  </label>
-                        <input id="manager" type="text">
-                     </div>
-                     <br>
-                     <div class="calcu">
-                        
-                        <label for="">Coach :  </label>
-                        <input id="coach" type="text">
-                     </div>
-                       <br>
-                     <button id="total-calculate" class="btn btn-primary">Total Calculate</button>
-                     
-                     <p>Total = $<span id="total">00</span> </p>
-                     
-                    
-                  
-              </div>
 
-        </div>
+
+
+
+
     </section>
 
-  
+
+  </main>
+  <footer class="text-center">
+    <p><i class="fa-solid fa-copyright"></i>copy right by programing hero</p>
+  </footer>
 
 
-    <script src="first.js">
-    
 
-    </script>
+  <script src="first.js">
 
-    <script src="budget.js">
 
-    </script>
+  </script>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+  <script src="budget.js">
+
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

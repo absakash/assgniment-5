@@ -17,7 +17,7 @@ function id(e) {
 
 document.getElementById('naymar').addEventListener('click', function () {
     console.log("naymar oksy");
-
+    let mn=document.getElementsByClassName('items');
     let order = select('order');
     let li = document.createElement('li');
     li.innerText = 'Naymar Junior';
@@ -30,6 +30,10 @@ document.getElementById('naymar').addEventListener('click', function () {
 
     if(items.length>5){
         alert("you can select only five players");
+       
+        const e = document.querySelector("li:last-child");
+        // remove the last list item
+        e.parentElement.removeChild(e);
         document.getElementById('naymar').style.backgroundColor = 'red';
     }
 
@@ -43,12 +47,16 @@ document.getElementById('lio').addEventListener('click', function () {
     li.innerText = 'Lio Messi';
     li.classList.add('items');
     order.appendChild(li);
-
+    
+   
     document.getElementById('lio').style.backgroundColor = 'gray';
     document.getElementById('lio').disabled = true;
 
     if(items.length>5){
         alert("you can select only five players");
+        const e = document.querySelector("li:last-child");
+        // remove the last list item
+        e.parentElement.removeChild(e);
         document.getElementById('lio').style.backgroundColor = 'red';
     }
 })
@@ -67,6 +75,10 @@ document.getElementById('cris').addEventListener('click', function () {
 
     if(items.length>5){
         alert("you can select only five players");
+
+        const e = document.querySelector("li:last-child");
+        // remove the last list item
+        e.parentElement.removeChild(e);
         document.getElementById('cris').style.backgroundColor = 'red';
     }
 })
@@ -85,6 +97,10 @@ document.getElementById('kaka').addEventListener('click', function () {
 
     if(items.length>5){
         alert("you can select only five players");
+
+        const e = document.querySelector("li:last-child");
+        // remove the last list item
+        e.parentElement.removeChild(e);
         document.getElementById('kaka').style.backgroundColor = 'red';
     }
 })
@@ -103,6 +119,10 @@ document.getElementById('martinez').addEventListener('click', function () {
 
     if(items.length>5){
         alert("you can select only five players");
+
+        const e = document.querySelector("li:last-child");
+        // remove the last list item
+        e.parentElement.removeChild(e);
         document.getElementById('martinez').style.backgroundColor = 'red';
     }
 })
@@ -121,6 +141,10 @@ document.getElementById('demaria').addEventListener('click', function () {
 
     if(items.length>5){
         alert("you can select only five players");
+
+        const e = document.querySelector("li:last-child");
+        // remove the last list item
+        e.parentElement.removeChild(e);
         document.getElementById('demaria').style.backgroundColor = 'red';
     }
 })

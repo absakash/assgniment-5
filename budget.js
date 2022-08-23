@@ -18,8 +18,11 @@ document.getElementById('calculate').addEventListener('click',function(){
     console.log("hum");
     let par_player=value('per-player');
     // console.log(par_player);
+
+    let mm=document.getElementsByClassName('items');
+
    let player_expences=inner('player_expences');
-   player_expences=5*par_player;
+   player_expences=mm.length*par_player;
 
    document.getElementById('player_expences').innerText=player_expences;
    console.log(player_expences);
